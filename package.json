@@ -1,0 +1,19 @@
+{
+  "name": "block_based_starter_theme",
+  "version": "1.0.0",
+  "description": "Block Based Starter Theme",
+  "devDependencies": {
+    "@wordpress/browserslist-config": "^2.2.2",
+    "@wordpress/scripts": "14.0.1"
+  },
+  "browserslist": [
+    "extends @wordpress/browserslist-config"
+  ],
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10"
+  }
+}

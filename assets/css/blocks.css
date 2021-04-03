@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	justify-content: center;
+	align-items: center;
+	font-family: 'Open Sans';
+}
+.wp-block-navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wp-block-navigation ul {
+	margin-top: 30px;
+}
+.index {
+	background-color: orange;
+    background: linear-gradient(45deg, rgb(255 182 59 / 86%), rgb(142 164 175 / 60%));
+	height: 100vh;
+	width: 100vw;
+} 
+.index .container {
+	display: flex;
+    height: 100%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    max-width: 800px;
+}
+.footer {
+    height: 80px;
+    padding: 1px;
+    background: #4c412d;
+    color: #fff;
+}
