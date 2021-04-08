@@ -1,7 +1,7 @@
 # Block-Based-Starter-Theme
 This is a WordPress theme ready for Full-Site Editing (currently available with Gutenberg plugin installed)
 
-It also has a working custom block that can easily be modifed and added to with the following instructions:
+It also has a working custom block that can easily be modifed and more blocks can be added with the following instructions:
 
 CD into the root folder and in a terminal window type - **npm install**
 
