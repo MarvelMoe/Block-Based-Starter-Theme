@@ -1,0 +1,194 @@
+{
+	"templateParts": {
+		"header": {
+			"area": "header"
+		},
+		"footer": {
+			"area": "footer"
+		}
+	},
+	"settings": {
+		"defaults": {
+			"color": {
+				"palette": [
+					{
+						"slug": "orange",
+						"color": "#ff4b1f",
+						"name": "Orange"
+					}
+				]
+			},
+			"typography": {
+				"customLineHeight": true,
+				"fontSizes": [
+					{
+						"slug": "extra-small",
+						"size": "16px",
+						"name": "Extra small"
+					},
+					{
+						"slug": "small",
+						"size": "18px",
+						"name": "Small"
+					},
+					{
+						"slug": "normal",
+						"size": "20px",
+						"name": "Normal"
+					},
+					{
+						"slug": "large",
+						"size": "24px",
+						"name": "Large"
+					},
+					{
+						"slug": "extra-large",
+						"size": "40px",
+						"name": "Extra large"
+					},
+					{
+						"slug": "huge",
+						"size": "96px",
+						"name": "Huge"
+					},
+					{
+						"slug": "gigantic",
+						"size": "144px",
+						"name": "Gigantic"
+					}
+				],
+				"fontWeights": [
+					{
+						"slug": "light",
+						"value": 300,
+						"name": "Light"
+					},
+					{
+						"slug": "normal",
+						"value": "normal",
+						"name": "Normal"
+					},
+					{
+						"slug": "medium",
+						"value": "500",
+						"name": "Medium"
+					},
+					{
+						"slug": "semibold",
+						"value": 600,
+						"name": "Semibold"
+					},
+					{
+						"slug": "bold",
+						"value": 700,
+						"name": "Bold"
+					}
+				],
+				"fontStyles": [
+					{
+						"slug": "normal",
+						"value": "normal",
+						"name": "Normal"
+					},
+					{
+						"slug": "italic",
+						"value": "italic",
+						"name": "Italic"
+					}
+				],
+				"fontFamilies": [
+					{
+						"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+						"slug": "system-font",
+						"name": "System Font"
+					},
+					{
+						"fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+						"slug": "helvetica-arial"
+					},
+					{
+						"fontFamily": "Geneva, Tahoma, Verdana, sans-serif",
+						"slug": "geneva-verdana"
+					},
+					{
+						"fontFamily": "Cambria, Georgia, serif",
+						"slug": "cambria-georgia"
+					},
+					{
+						"fontFamily": "Hoefler Text, Baskerville Old Face, Garamond, Times New Roman, serif",
+						"slug": "hoefler-times-new-roman"
+					}
+				]
+			},
+			"spacing": {
+				"customPadding": true
+			},
+			"custom": {
+				"font-primary": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+				"line-height": {
+					"body": 1.7,
+					"heading": 1.3,
+					"page-title": 1.1
+				},
+				"responsive": {
+					"aligndefault-width": "610px",
+					"alignwide-width": "1240px"
+				},
+				"spacing": {
+					"unit": "20px",
+					"horizontal": "25px",
+					"vertical": "30px"
+				}
+			}
+		}
+	},
+	"styles": {
+		"root": {
+			"color": {
+				"background": "var(--wp--preset--color--orange)",
+				"text": "var(--wp--preset--color--dark-gray)",
+				"link": "var(--wp--preset--color--dark-gray)"
+			},
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--normal)",
+				"lineHeight": "var(--wp--custom--line-height--body)"
+			}
+		},
+		"core/heading/h1": {
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--gigantic)",
+				"lineHeight": "var(--wp--custom--line-height--page-title)"
+			}
+		},
+		"core/heading/h2": {
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--extra-large)",
+				"lineHeight": "var(--wp--custom--line-height--heading)"
+			}
+		},
+		"core/heading/h3": {
+			"typography": {
+				"fontSize": "calc(1.25 * var(--wp--preset--font-size--large))",
+				"lineHeight": "var(--wp--custom--line-height--heading)"
+			}
+		},
+		"core/heading/h4": {
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--large)",
+				"lineHeight": "var(--wp--custom--line-height--heading)"
+			}
+		},
+		"core/heading/h5": {
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--small)",
+				"lineHeight": "var(--wp--custom--line-height--heading)"
+			}
+		},
+		"core/heading/h6": {
+			"typography": {
+				"fontSize": "var(--wp--preset--font-size--extra-small)",
+				"lineHeight": "var(--wp--custom--line-height--heading)"
+			}
+		}
+	}
+}
